@@ -75,31 +75,31 @@ public class Menu {
 
                     switch (typeField + typeSort) {
                         case "11":
-                            listOfPerson.sort(List.Typefield.id, List.Sorttype.bubble);
+                            listOfPerson.sort(Typefield.id, Sorttype.bubble);
                             break;
                         case "12":
-                            listOfPerson.sort(List.Typefield.id, List.Sorttype.shell);
+                            listOfPerson.sort(Typefield.id, Sorttype.shell);
                             break;
                         case "13":
-                            listOfPerson.sort(List.Typefield.id, List.Sorttype.quick);
+                            listOfPerson.sort(Typefield.id, Sorttype.quick);
                             break;
                         case "21":
-                            listOfPerson.sort(List.Typefield.surname, List.Sorttype.bubble);
+                            listOfPerson.sort(Typefield.surname, Sorttype.bubble);
                             break;
                         case "22":
-                            listOfPerson.sort(List.Typefield.surname, List.Sorttype.shell);
+                            listOfPerson.sort(Typefield.surname, Sorttype.shell);
                             break;
                         case "23":
-                            listOfPerson.sort(List.Typefield.surname, List.Sorttype.quick);
+                            listOfPerson.sort(Typefield.surname, Sorttype.quick);
                             break;
                         case "31":
-                            listOfPerson.sort(List.Typefield.age, List.Sorttype.bubble);
+                            listOfPerson.sort(Typefield.age, Sorttype.bubble);
                             break;
                         case "32":
-                            listOfPerson.sort(List.Typefield.age, List.Sorttype.shell);
+                            listOfPerson.sort(Typefield.age, Sorttype.shell);
                             break;
                         case "33":
-                            listOfPerson.sort(List.Typefield.age, List.Sorttype.quick);
+                            listOfPerson.sort(Typefield.age, Sorttype.quick);
                             break;
                     }
                 }

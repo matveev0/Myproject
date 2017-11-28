@@ -8,29 +8,6 @@ public class List {
     private Person[] listOfPerson;
     private int length;
 
-    public enum Sorttype {bubble, quick, shell}
-
-    public enum Typefield {id, surname, age}
-
-    public static final Comparator<Person> COMPARE_BY_ID = new Comparator<Person>() {
-        @Override
-        public int compare(Person lhs, Person rhs) {
-            return lhs.getId() - rhs.getId();
-        }
-    };
-    public static final Comparator<Person> COMPARE_BY_SURNAME = new Comparator<Person>() {
-        @Override
-        public int compare(Person lhs, Person rhs) {
-            return lhs.getSurname().compareTo(rhs.getSurname());
-        }
-    };
-    public static final Comparator<Person> COMPARE_BY_AGE = new Comparator<Person>() {
-        @Override
-        public int compare(Person lhs, Person rhs) {
-            return lhs.getAge() - rhs.getAge();
-        }
-    };
-
     /**
      * @param capacity размер списка
      */
@@ -182,31 +159,31 @@ public class List {
     public void sort(Typefield field, Sorttype typesort) {
         switch (field.toString() + "." + typesort.toString()) {
             case "age.bubble":
-                bubbleSort(COMPARE_BY_AGE);
+                bubbleSort(MyComparator.COMPARE_BY_AGE);
                 break;
             case "age.quick":
-                quickSort(COMPARE_BY_AGE);
+                quickSort(MyComparator.COMPARE_BY_AGE);
                 break;
             case "age.shell":
-                shell(COMPARE_BY_AGE);
+                shell(MyComparator.COMPARE_BY_AGE);
                 break;
             case "surname.bubble":
-                bubbleSort(COMPARE_BY_SURNAME);
+                bubbleSort(MyComparator.COMPARE_BY_SURNAME);
                 break;
             case "surname.quick":
-                quickSort(COMPARE_BY_SURNAME);
+                quickSort(MyComparator.COMPARE_BY_SURNAME);
                 break;
             case "surname.shell":
-                shell(COMPARE_BY_SURNAME);
+                shell(MyComparator.COMPARE_BY_SURNAME);
                 break;
             case "id.bubble":
-                bubbleSort(COMPARE_BY_ID);
+                bubbleSort(MyComparator.COMPARE_BY_ID);
                 break;
             case "id.quick":
-                quickSort(COMPARE_BY_ID);
+                quickSort(MyComparator.COMPARE_BY_ID);
                 break;
             case "id.shell":
-                shell(COMPARE_BY_ID);
+                shell(MyComparator.COMPARE_BY_ID);
                 break;
         }
     }
