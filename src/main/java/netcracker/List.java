@@ -156,34 +156,16 @@ public class List {
         }
     }
 
-    public void sort(Typefield field, Sorttype typesort) {
-        switch (field.toString() + "." + typesort.toString()) {
-            case "age.bubble":
-                bubbleSort(MyComparator.COMPARE_BY_AGE);
+    public void sort(Comparator comparator, Sorttype typesort) {
+        switch (typesort.toString()) {
+            case "bubble":
+                bubbleSort(comparator);
                 break;
-            case "age.quick":
-                quickSort(MyComparator.COMPARE_BY_AGE);
+            case "quick":
+                quickSort(comparator);
                 break;
-            case "age.shell":
-                shell(MyComparator.COMPARE_BY_AGE);
-                break;
-            case "surname.bubble":
-                bubbleSort(MyComparator.COMPARE_BY_SURNAME);
-                break;
-            case "surname.quick":
-                quickSort(MyComparator.COMPARE_BY_SURNAME);
-                break;
-            case "surname.shell":
-                shell(MyComparator.COMPARE_BY_SURNAME);
-                break;
-            case "id.bubble":
-                bubbleSort(MyComparator.COMPARE_BY_ID);
-                break;
-            case "id.quick":
-                quickSort(MyComparator.COMPARE_BY_ID);
-                break;
-            case "id.shell":
-                shell(MyComparator.COMPARE_BY_ID);
+            case "shell":
+                shell(comparator);
                 break;
         }
     }

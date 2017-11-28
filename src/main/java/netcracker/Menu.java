@@ -75,31 +75,31 @@ public class Menu {
 
                     switch (typeField + typeSort) {
                         case "11":
-                            listOfPerson.sort(Typefield.id, Sorttype.bubble);
+                            listOfPerson.sort(MyComparator.COMPARE_BY_ID, Sorttype.bubble);
                             break;
                         case "12":
-                            listOfPerson.sort(Typefield.id, Sorttype.shell);
+                            listOfPerson.sort(MyComparator.COMPARE_BY_ID, Sorttype.shell);
                             break;
                         case "13":
-                            listOfPerson.sort(Typefield.id, Sorttype.quick);
+                            listOfPerson.sort(MyComparator.COMPARE_BY_ID, Sorttype.quick);
                             break;
                         case "21":
-                            listOfPerson.sort(Typefield.surname, Sorttype.bubble);
+                            listOfPerson.sort(MyComparator.COMPARE_BY_SURNAME, Sorttype.bubble);
                             break;
                         case "22":
-                            listOfPerson.sort(Typefield.surname, Sorttype.shell);
+                            listOfPerson.sort(MyComparator.COMPARE_BY_SURNAME, Sorttype.shell);
                             break;
                         case "23":
-                            listOfPerson.sort(Typefield.surname, Sorttype.quick);
+                            listOfPerson.sort(MyComparator.COMPARE_BY_SURNAME, Sorttype.quick);
                             break;
                         case "31":
-                            listOfPerson.sort(Typefield.age, Sorttype.bubble);
+                            listOfPerson.sort(MyComparator.COMPARE_BY_AGE, Sorttype.bubble);
                             break;
                         case "32":
-                            listOfPerson.sort(Typefield.age, Sorttype.shell);
+                            listOfPerson.sort(MyComparator.COMPARE_BY_AGE, Sorttype.shell);
                             break;
                         case "33":
-                            listOfPerson.sort(Typefield.age, Sorttype.quick);
+                            listOfPerson.sort(MyComparator.COMPARE_BY_AGE, Sorttype.quick);
                             break;
                     }
                 }
