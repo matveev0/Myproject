@@ -1,4 +1,4 @@
-package netcracker;
+package netcracker.exceptions;
 
 public class MyException extends Exception{
     private int number;
