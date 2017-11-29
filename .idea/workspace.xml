@@ -1,34 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="261131e7-30b0-4f3a-a451-3e318ecb69ca" name="Default" comment="написан свои компаратор, добавлены интерфейсы, чекеры, сортировки, настроен config">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/netcracker/PersonChecks/AgePersonChecker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/netcracker/PersonChecks/FioPersonChecker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/netcracker/PersonChecks/IdPersonChecker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/netcracker/comparator/Compare_by_age.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/netcracker/comparator/Compare_by_fio.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/netcracker/comparator/Compare_by_id.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/netcracker/config/Configurator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/netcracker/interfaces/PersonChecker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/netcracker/interfaces/PersonComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/netcracker/interfaces/PersonInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/netcracker/interfaces/PersonRepositoryInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/netcracker/interfaces/PersonSorter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/netcracker/sorts/BubbleSorter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/netcracker/sorts/QuickSorter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/netcracker/sorts/ShellSorter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/netcracker/Enums.java" afterPath="" />
+    <list default="true" id="261131e7-30b0-4f3a-a451-3e318ecb69ca" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/netcracker/Main.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Tests.java" afterPath="$PROJECT_DIR$/src/test/java/Tests.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/netcracker/List.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/entity/PersonRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/netcracker/Menu.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/menu/Menu.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/netcracker/MyException.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/exceptions/MyException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/netcracker/Mycomparator.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/comparator/PersonComparator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/netcracker/Person.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/entity/Person.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -450,7 +424,7 @@
       <updated>1511307779900</updated>
       <workItem from="1511307795660" duration="3226000" />
       <workItem from="1511865856263" duration="1816000" />
-      <workItem from="1511877665517" duration="24624000" />
+      <workItem from="1511877665517" duration="24660000" />
     </task>
     <task id="LOCAL-00001" summary="enum and comparator в отдельные классы">
       <created>1511866550227</created>
@@ -466,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511867674776</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="написан свои компаратор, добавлены интерфейсы, чекеры, сортировки, настроен config">
+      <created>1511994855844</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1511994855844</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -502,7 +483,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29666000" />
+    <option name="totallyTimeSpent" value="29702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
