@@ -1,12 +1,13 @@
 
 import netcracker.comparator.Compare_by_age;
-import netcracker.entity.PersonRepository;
 import netcracker.entity.Person;
+import netcracker.entity.PersonRepository;
 
 import org.joda.time.LocalDate;
 import org.junit.Test;
 
 import java.io.IOException;
+import java.util.Arrays;
 
 import static org.junit.Assert.assertEquals;
 
@@ -19,13 +20,14 @@ public class Tests {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        Person p1 = new Person("1","Матвеев543", new LocalDate(1999, 10, 11));
+        Person p1 = new Person("1", "Матвеев543", new LocalDate(1999, 10, 11));
         l.add(p1);
-        Person p = l.getPerson(l.getPerson("1").getId());
+        Person p = l.get(l.get("1").getId());
 
         assertEquals(p, p1);
     }
 
+    @Test
     public void testSort() {
         PersonRepository l = null;
         try {
@@ -46,9 +48,14 @@ public class Tests {
         arrayperson[1] = p2;
         arrayperson[2] = p3;
 
-        //Arrays.sort(arrayperson, new Compare_by_age());
+
+        Arrays.sort(arrayperson, new Compare_by_age());
         l.sort(new Compare_by_age());
 
+        boolean ok = false;
+       /* for (int i = 0; i < ; i++) {
+
+        }*/
         assertEquals(l, arrayperson);
     }
 }

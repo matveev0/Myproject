@@ -1,12 +1,14 @@
 package netcracker.sorts;
 
 import netcracker.entity.Person;
-import netcracker.interfaces.PersonComparator;
-import netcracker.interfaces.PersonSorter;
 
-public class ShellSorter implements PersonSorter {
+import netcracker.interfaces.Sorter;
+
+import java.util.Comparator;
+
+public class ShellSorter implements Sorter<Person> {
     @Override
-    public void sort(Person[] repository, int length, PersonComparator comparator) {
+    public void sort(Person[] repository, int length, Comparator<Person> comparator) {
         int increment = length / 2;
         while (increment > 0) {
             for (int i = increment; i < length; i++) {

@@ -1,12 +1,13 @@
 package netcracker.sorts;
 
 import netcracker.entity.Person;
-import netcracker.interfaces.PersonComparator;
-import netcracker.interfaces.PersonSorter;
+import netcracker.interfaces.Sorter;
 
-public class BubbleSorter implements PersonSorter {
+import java.util.Comparator;
+
+public class BubbleSorter implements Sorter<Person> {
     @Override
-    public void sort(Person[] repository, int length, PersonComparator comparator) {
+    public void sort(Person[] repository, int length, Comparator<Person> comparator) {
         int n = repository.length;
         Person temp;
         for (int i = 0; i < length; i++) {

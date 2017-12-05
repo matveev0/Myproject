@@ -1,70 +1,29 @@
 package netcracker.entity;
 
 import netcracker.PersonChecks.*;
-import netcracker.config.Configurator;
-import netcracker.interfaces.PersonComparator;
-import netcracker.interfaces.PersonRepositoryInterface;
-import netcracker.interfaces.PersonChecker;
-import netcracker.interfaces.PersonSorter;
+import netcracker.abstractclass.Repository;
+import netcracker.interfaces.Checker;
 
 import java.io.IOException;
-import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Iterator;
 
-public class PersonRepository implements PersonRepositoryInterface {
-    private static int id = -1;
-    private Person[] repository;
-    private int lengthNotNull;
-    private PersonSorter sorter = Configurator.getInstance().getSorter();
+public class PersonRepository extends Repository<Person> implements Iterator/* PersonRepositoryInterface */ {
 
-    /**
-     * @param capacity размер списка
-     */
     public PersonRepository(int capacity) throws IOException {
-        repository = new Person[capacity];
-        lengthNotNull = 0;
+        super(capacity);
+        //repository = (Person[])repository;
     }
 
-    public int getLength() {
-        return lengthNotNull;
-    }
-
-    /**
-     * Увеличение размера списка в 2 раза
-     */
-    void resize() {
-        repository = Arrays.copyOf(repository, repository.length * 2);
-        //length *= 2;
-    }
-
-    /**
-     * Добавление в список персоны.
-     * В случае отсутствия места для вставки, увеличение размера
-     *
-     * @param p
-     */
     @Override
-    public void add(Person p) {
-        if (++id < repository.length - 1) {
-            repository[id] = p;
-        } else {
-            resize();
-            repository[id] = p;
-        }
-        lengthNotNull++;
-    }
-
-    /**
-     * Удаление элемента в списке по id
-     *
-     * @param id Id удаляемого элемента. Удаляется первое вхождение.
-     */
-    @Override
-    public void delete(String id) {
+    public void delete(Person pp) {
         int i = -1;
 
-        for (Person p : repository) {
+        for (Object p1 : repository) {
+            Person p = (Person) p1;
             i++;
-            if (p.getId().equals(id)) {
+
+            if (p.getId().equals(pp.getId())) {
                 for (; i < repository.length - 1; i++) {
                     repository[i] = repository[i + 1];
                 }
@@ -73,12 +32,12 @@ public class PersonRepository implements PersonRepositoryInterface {
                 return;
             }
         }
-
     }
 
     @Override
-    public Person getPerson(String id) {
-        for (Person p : repository) {
+    public Person get(String id) {
+        for (Object p1 : repository) {
+            Person p = (Person) p1;
             if (p.getId().equals(id))
                 return p;
         }
@@ -86,7 +45,7 @@ public class PersonRepository implements PersonRepositoryInterface {
     }
 
     @Override
-    public void sort(PersonComparator comparator) {
+    public void sort(Comparator<Person> comparator) {
         sorter.sort(repository, lengthNotNull, comparator);
     }
 
@@ -97,18 +56,20 @@ public class PersonRepository implements PersonRepositoryInterface {
      * Вывод в консоль списка персон
      */
     public void printer() {
-        for (Person p : repository)
+        for (Object p1 : repository) {
+            Person p = (Person) p1;
             if (p != null)
                 System.out.println("ID: " + p.getId() + " FIO: " + p.getFIO() + " AGE: " + p.getAge());
+        }
     }
 
-    private PersonRepository search(PersonChecker checker, Object value) {
+    private PersonRepository search(Checker checker, Object value) {
         PersonRepository result = null;
         try {
-           result = new PersonRepository(5);
+            result = new PersonRepository(5);
             for (int i = 0; i < lengthNotNull; i++) {
                 if (checker.check(repository[i], value))
-                    result.add(repository[i]);
+                    result.add((Person) repository[i]);
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -129,5 +90,15 @@ public class PersonRepository implements PersonRepositoryInterface {
     public PersonRepository searchbyID(String ID) {
         //return search((p, id) -> p.getId().equals(id), ID);
         return search(new IdPersonChecker(), ID);
+    }
+
+    @Override
+    public boolean hasNext() {
+        return false;
+    }
+
+    @Override
+    public Object next() {
+        return null;
     }
 }

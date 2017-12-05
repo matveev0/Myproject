@@ -1,18 +1,19 @@
 package netcracker.sorts;
 
 import netcracker.entity.Person;
-import netcracker.interfaces.PersonComparator;
-import netcracker.interfaces.PersonSorter;
+import netcracker.interfaces.Sorter;
 
-public class QuickSorter implements PersonSorter {
+import java.util.Comparator;
+
+public class QuickSorter implements Sorter<Person> {
     @Override
-    public void sort(Person[] repository, int length, PersonComparator comparator) {
+    public void sort(Person[] repository, int length, Comparator<Person> comparator) {
         int startIndex = 0;
         int endIndex = length;
         doSort(repository, startIndex, endIndex-1, comparator);
     }
 
-    private void doSort(Person[] repository, int start, int end, PersonComparator comparator) {
+    private void doSort(Person[] repository, int start, int end, Comparator<Person> comparator) {
         if (start >= end)
             return;
         int i = start, j = end;

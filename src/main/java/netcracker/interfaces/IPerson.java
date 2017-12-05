@@ -2,7 +2,7 @@ package netcracker.interfaces;
 
 import org.joda.time.LocalDate;
 
-public interface PersonInterface {
+public interface IPerson {
     String getFIO();
 
     LocalDate getDateOfBirth();

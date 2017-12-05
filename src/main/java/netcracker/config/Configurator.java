@@ -1,6 +1,7 @@
 package netcracker.config;
 
-import netcracker.interfaces.PersonSorter;
+import netcracker.interfaces.Sorter;
+import netcracker.interfaces.Sorter;
 import netcracker.sorts.*;
 
 
@@ -18,7 +19,7 @@ public class Configurator {
         sort = props.getProperty("sort");
     }
 
-    public PersonSorter getSorter() {
+    public Sorter getSorter() {
         switch (sort) {
             case "bubble": {
                 return new BubbleSorter();

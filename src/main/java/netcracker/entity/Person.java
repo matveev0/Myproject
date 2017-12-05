@@ -1,22 +1,23 @@
 package netcracker.entity;
 
-import netcracker.interfaces.PersonInterface;
+import netcracker.interfaces.IPerson;
 import org.joda.time.LocalDate;
 import java.util.UUID;
 
-public class Person implements PersonInterface {
+public class Person implements IPerson {
     private String id;
     private String FIO;
     private LocalDate DateOfBirth;
 
-    public Person(String FIO, LocalDate DateOfBirth) {
-        id = UUID.randomUUID().toString().substring(0,8);
+
+    public Person(String id, String FIO, LocalDate DateOfBirth) {
+        this.id = id;
         this.FIO = FIO;
         this.DateOfBirth = DateOfBirth;
     }
 
-    public Person(String id, String FIO, LocalDate DateOfBirth) {
-        this.id = id;
+    public Person(String FIO, LocalDate DateOfBirth) {
+        this.id = UUID.randomUUID().toString().substring(0,5);
         this.FIO = FIO;
         this.DateOfBirth = DateOfBirth;
     }
