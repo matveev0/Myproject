@@ -2,17 +2,20 @@ package netcracker.entity;
 
 import netcracker.PersonChecks.*;
 import netcracker.abstractclass.Repository;
+import netcracker.config.Configurator;
 import netcracker.interfaces.Checker;
+import netcracker.interfaces.Sorter;
 
 import java.io.IOException;
 import java.util.Comparator;
-import java.util.Iterator;
 
-public class PersonRepository extends Repository<Person> implements Iterator/* PersonRepositoryInterface */ {
+public class PersonRepository extends Repository<Person>/* PersonRepositoryInterface */ {
+
+    private Sorter<Person> sorter = Configurator.getInstance().getSorter();
 
     public PersonRepository(int capacity) throws IOException {
         super(capacity);
-        //repository = (Person[])repository;
+        repository = new Person[capacity];
     }
 
     @Override
@@ -36,8 +39,7 @@ public class PersonRepository extends Repository<Person> implements Iterator/* P
 
     @Override
     public Person get(String id) {
-        for (Object p1 : repository) {
-            Person p = (Person) p1;
+        for (Person p : repository) {
             if (p.getId().equals(id))
                 return p;
         }
@@ -69,7 +71,7 @@ public class PersonRepository extends Repository<Person> implements Iterator/* P
             result = new PersonRepository(5);
             for (int i = 0; i < lengthNotNull; i++) {
                 if (checker.check(repository[i], value))
-                    result.add((Person) repository[i]);
+                    result.add(repository[i]);
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -92,13 +94,5 @@ public class PersonRepository extends Repository<Person> implements Iterator/* P
         return search(new IdPersonChecker(), ID);
     }
 
-    @Override
-    public boolean hasNext() {
-        return false;
-    }
 
-    @Override
-    public Object next() {
-        return null;
-    }
 }

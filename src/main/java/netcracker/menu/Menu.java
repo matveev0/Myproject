@@ -64,10 +64,7 @@ public class Menu {
                         System.out.print("ID: ");
                         in.nextLine();
                         String id = in.nextLine();
-                        for (int i = 0; i < personRepository.getLength(); i++) {
-                            if (personRepository.get(id).getId().equals(id))
-                                personRepository.delete(personRepository.get(id));
-                        }
+                        personRepository.delete(personRepository.get(id));
                     } catch (Exception ex) {
                         System.out.println(ex.getMessage());
                     }
@@ -101,41 +98,52 @@ public class Menu {
                 }
 
                 case 5: {
-                    System.out.println("Enter ID");
-                    String ID = in.nextLine();
-                    ID = in.nextLine();
-                    PersonRepository result = personRepository.searchbyID(ID);
-                    if (result != null)
-                        result.printer();
-                    else
-                        System.out.println("IPerson doesn`t exist");
+                    try {
+                        System.out.println("Enter ID");
+                        String ID = in.nextLine();
+                        ID = in.nextLine();
+                        PersonRepository result = personRepository.searchbyID(ID);
+                        if (result != null)
+                            result.printer();
+                        else
+                            System.out.println("Person doesn`t exist");
+
+                    } catch (Exception ex) {
+                        System.out.println(ex.getMessage());
+                    }
                     break;
+
                 }
 
                 case 6: {
-                    System.out.println("Enter FIO");
-                    String FIO = in.nextLine();
-                    FIO = in.nextLine();
-                    PersonRepository result = personRepository.searchbyFIO(FIO);
-                    if (result != null)
-                        result.printer();
-                        //System.out.println("ID: " + p.getId() + " SURNAME: " + p.getSurname() + " AGE: " + p.getAge());
-                    else
-                        System.out.println("IPerson doesn`t exist");
+                    try {
+                        System.out.println("Enter FIO");
+                        String FIO = in.nextLine();
+                        FIO = in.nextLine();
+                        PersonRepository result = personRepository.searchbyFIO(FIO);
+                        if (result != null)
+                            result.printer();
+                        else
+                            System.out.println("Person doesn`t exist");
+                    } catch (Exception ex) {
+                        System.out.println(ex.getMessage());
+                    }
                     break;
                 }
 
                 case 7: {
-                    System.out.println("Enter age");
-                    String age = in.nextLine();
-                    age = in.nextLine();
-                    PersonRepository result = personRepository.searchbyAge(Integer.parseInt(age));
-                    if (result != null)
-                        result.printer();
-                        //System.out.println("ID: " + p.getId() + " SURNAME: " + p.getSurname() + " AGE: " + p.getAge());
-                    else
-                        System.out.println("IPerson doesn`t exist");
-                    break;
+                    try {
+                        System.out.println("Enter age");
+                        String age = in.nextLine();
+                        age = in.nextLine();
+                        PersonRepository result = personRepository.searchbyAge(Integer.parseInt(age));
+                        if (result != null)
+                            result.printer();
+                        else
+                            System.out.println("Person doesn`t exist");
+                    } catch (Exception ex) {
+                        System.out.println(ex.getMessage());
+                    }
                 }
             }
         }

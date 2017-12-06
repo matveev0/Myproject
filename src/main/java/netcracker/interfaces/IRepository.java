@@ -2,7 +2,7 @@ package netcracker.interfaces;
 
 import java.util.Comparator;
 
-public interface Repository<T> {
+public interface IRepository<T> {
     void sort(Comparator<T> comparator);
 
     void resize();

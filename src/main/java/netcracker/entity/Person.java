@@ -7,19 +7,19 @@ import java.util.UUID;
 public class Person implements IPerson {
     private String id;
     private String FIO;
-    private LocalDate DateOfBirth;
+    private LocalDate dateOfBirth;
 
 
-    public Person(String id, String FIO, LocalDate DateOfBirth) {
+    public Person(String id, String FIO, LocalDate dateOfBirth) {
         this.id = id;
         this.FIO = FIO;
-        this.DateOfBirth = DateOfBirth;
+        this.dateOfBirth = dateOfBirth;
     }
 
     public Person(String FIO, LocalDate DateOfBirth) {
         this.id = UUID.randomUUID().toString().substring(0,5);
         this.FIO = FIO;
-        this.DateOfBirth = DateOfBirth;
+        this.dateOfBirth = DateOfBirth;
     }
 
     @Override
@@ -29,7 +29,7 @@ public class Person implements IPerson {
 
     @Override
     public LocalDate getDateOfBirth() {
-        return DateOfBirth;
+        return dateOfBirth;
     }
 
     @Override
@@ -43,8 +43,8 @@ public class Person implements IPerson {
      */
     @Override
     public int getAge() {
-        int age = LocalDate.now().getYear() - DateOfBirth.getYear();
-        if (LocalDate.now().getDayOfYear() <= DateOfBirth.getDayOfYear())
+        int age = LocalDate.now().getYear() - dateOfBirth.getYear();
+        if (LocalDate.now().getDayOfYear() <= dateOfBirth.getDayOfYear())
             age--;
         return age;
     }

@@ -5,15 +5,14 @@ import netcracker.interfaces.Sorter;
 
 import java.util.Comparator;
 
-public class QuickSorter implements Sorter<Person> {
+public class QuickSorter<T> implements Sorter<T> {
     @Override
-    public void sort(Person[] repository, int length, Comparator<Person> comparator) {
+    public void sort(T[] repository, int length, Comparator<T> comparator) {
         int startIndex = 0;
-        int endIndex = length;
-        doSort(repository, startIndex, endIndex-1, comparator);
+        doSort(repository, startIndex, length -1, comparator);
     }
 
-    private void doSort(Person[] repository, int start, int end, Comparator<Person> comparator) {
+    private void doSort(T[] repository, int start, int end, Comparator<T> comparator) {
         if (start >= end)
             return;
         int i = start, j = end;
@@ -22,11 +21,11 @@ public class QuickSorter implements Sorter<Person> {
             while (i < cur && comparator.compare(repository[i], repository[cur]) <= 0) {
                 i++;
             }
-            while (j > cur && comparator.compare(repository[cur], repository[j]) <= 0) {
+            while (j > cur && comparator.compare(repository[cur],  repository[j]) <= 0) {
                 j--;
             }
             if (i < j) {
-                Person temp = repository[i];
+                T temp = repository[i];
                 repository[i] = repository[j];
                 repository[j] = temp;
                 if (i == cur)

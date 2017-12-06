@@ -11,7 +11,7 @@ import java.util.Arrays;
 
 import static org.junit.Assert.assertEquals;
 
-public class Tests {
+public class TestsPersonRepository {
     @Test
     public void testAdd() {
         PersonRepository l = null;
@@ -22,7 +22,7 @@ public class Tests {
         }
         Person p1 = new Person("1", "Матвеев543", new LocalDate(1999, 10, 11));
         l.add(p1);
-        Person p = l.get(l.get("1").getId());
+        Person p = l.get("1");
 
         assertEquals(p, p1);
     }
@@ -53,9 +53,11 @@ public class Tests {
         l.sort(new Compare_by_age());
 
         boolean ok = false;
-       /* for (int i = 0; i < ; i++) {
-
-        }*/
-        assertEquals(l, arrayperson);
+        int i = 0;
+        for (Person p : l) {
+            assertEquals(p, arrayperson[i]);
+            i++;
+        }
     }
 }
+

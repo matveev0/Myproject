@@ -1,6 +1,6 @@
 package netcracker.interfaces;
 
-public interface IdRepository<T extends IdEntity> extends Repository<T> {
+public interface IdRepository<T extends IdEntity> extends IRepository<T> {
 
-    public void delete(String id);
+    void delete(String id);
 }

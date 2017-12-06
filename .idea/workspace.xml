@@ -1,37 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="261131e7-30b0-4f3a-a451-3e318ecb69ca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/netcracker/abstractclass/Repository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/netcracker/entity/Car.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/netcracker/entity/CarRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/netcracker/interfaces/Checker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/netcracker/interfaces/IdEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/netcracker/interfaces/IdRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/netcracker/interfaces/Repository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/netcracker/interfaces/Sorter.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/netcracker/interfaces/PersonChecker.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/netcracker/interfaces/PersonComparator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/netcracker/interfaces/PersonRepositoryInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/netcracker/interfaces/PersonSorter.java" afterPath="" />
+    <list default="true" id="261131e7-30b0-4f3a-a451-3e318ecb69ca" name="Default" comment="добавлена сущность car и carrepository. При запуске всех тестов ошибки, но по 1 все норм.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/TestsCarsRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/netcracker/PersonChecks/AgePersonChecker.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/PersonChecks/AgePersonChecker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/netcracker/PersonChecks/FioPersonChecker.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/PersonChecks/FioPersonChecker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/netcracker/PersonChecks/IdPersonChecker.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/PersonChecks/IdPersonChecker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/netcracker/comparator/Compare_by_age.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/comparator/Compare_by_age.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/netcracker/comparator/Compare_by_fio.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/comparator/Compare_by_fio.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/netcracker/comparator/Compare_by_id.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/comparator/Compare_by_id.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/netcracker/comparator/PersonComparator.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/comparator/PersonComparator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/netcracker/config/Configurator.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/config/Configurator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/netcracker/abstractclass/Repository.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/abstractclass/Repository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/netcracker/entity/Car.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/entity/Car.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/netcracker/entity/CarRepository.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/entity/CarRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/netcracker/entity/Person.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/entity/Person.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/netcracker/entity/PersonRepository.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/entity/PersonRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/netcracker/interfaces/IdRepository.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/interfaces/IdRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/netcracker/interfaces/Sorter.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/interfaces/Sorter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/netcracker/menu/Menu.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/menu/Menu.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/netcracker/sorts/BubbleSorter.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/sorts/BubbleSorter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/netcracker/sorts/QuickSorter.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/sorts/QuickSorter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/netcracker/sorts/ShellSorter.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/sorts/ShellSorter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/properties" afterPath="$PROJECT_DIR$/src/main/resources/properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Tests.java" afterPath="$PROJECT_DIR$/src/test/java/Tests.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/netcracker/interfaces/PersonInterface.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/interfaces/IPerson.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/netcracker/interfaces/Repository.java" afterPath="$PROJECT_DIR$/src/main/java/netcracker/interfaces/IRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/Tests.java" afterPath="$PROJECT_DIR$/src/test/java/TestsPersonRepository.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Tests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
+      <file leaf-file-name="TestsCarsRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestsCarsRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-195">
-              <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="281">
+              <caret line="38" column="58" lean-forward="true" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,51 +42,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Menu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/menu/Menu.java">
+      <file leaf-file-name="TestsPersonRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestsPersonRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="157" column="21" lean-forward="true" selection-start-line="157" selection-start-column="21" selection-end-line="157" selection-end-column="21" />
+            <state relative-caret-position="266">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="docComment;method#ShowMenu#0;class#Menu#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/entity/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="19" column="60" lean-forward="false" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+            <state relative-caret-position="425">
+              <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#Person#0;class#Person#0" expanded="false" />
+                <element signature="method#Person#1;class#Person#0" expanded="false" />
                 <element signature="docComment;method#getAge#0;class#Person#0" expanded="false" />
                 <element signature="method#getAge#0;class#Person#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuickSorter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/sorts/QuickSorter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -128,13 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$MAVEN_REPOSITORY$/joda-time/joda-time/2.4/joda-time-2.4.jar!/org/joda/time/LocalDate.class" />
-        <option value="$MAVEN_REPOSITORY$/joda-time/joda-time/2.4/joda-time-2.4.jar!/org/joda/time/DateTimeUtils.class" />
-        <option value="$MAVEN_REPOSITORY$/joda-time/joda-time/2.4/joda-time-2.4.jar!/org/joda/time/chrono/ISOChronology.class" />
-        <option value="$PROJECT_DIR$/src/main/java/netcracker/comparator/Comparator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netcracker/List.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netcracker/interfaces/PersonCheker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netcracker/PersonRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/netcracker/interfaces/BubbleSorter.java" />
         <option value="$PROJECT_DIR$/src/main/java/netcracker/exceptions/MyException.java" />
         <option value="$PROJECT_DIR$/src/main/java/netcracker/interfaces/PersonInterface.java" />
@@ -152,10 +110,8 @@
         <option value="$PROJECT_DIR$/src/main/java/netcracker/Main.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.xml" />
         <option value="$PROJECT_DIR$/src/main/java/netcracker/interfaces/PersonComparator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netcracker/entity/CarRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/netcracker/interfaces/PersonRepositoryInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/netcracker/entity/IdEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netcracker/interfaces/IdRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/netcracker/Repository.java" />
         <option value="$PROJECT_DIR$/src/main/java/netcracker/interfaces/Repository.java" />
         <option value="$PROJECT_DIR$/src/main/java/netcracker/interfaces/IdEntity.java" />
@@ -168,17 +124,26 @@
         <option value="$PROJECT_DIR$/src/main/java/netcracker/comparator/Compare_by_age.java" />
         <option value="$PROJECT_DIR$/src/main/java/netcracker/comparator/Compare_by_fio.java" />
         <option value="$PROJECT_DIR$/src/main/java/netcracker/comparator/Compare_by_id.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netcracker/menu/Menu.java" />
         <option value="$PROJECT_DIR$/src/main/java/netcracker/interfaces/PersonSorter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netcracker/abstractclass/Repository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netcracker/sorts/BubbleSorter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netcracker/sorts/QuickSorter.java" />
         <option value="$PROJECT_DIR$/src/main/java/netcracker/config/Configurator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netcracker/entity/PersonRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netcracker/sorts/ShellSorter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netcracker/sorts/PersonBubbleSorter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netcracker/sorts/PersonQuickSorter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netcracker/sorts/PersonShellSorter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netcracker/menu/Menu.java" />
         <option value="$PROJECT_DIR$/src/main/java/netcracker/entity/Person.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netcracker/sorts/BubbleSorter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netcracker/sorts/ShellSorter.java" />
         <option value="$PROJECT_DIR$/src/main/resources/properties" />
+        <option value="$PROJECT_DIR$/src/main/java/netcracker/interfaces/IdRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netcracker/interfaces/Sorter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netcracker/sorts/QuickSorter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netcracker/abstractclass/Repository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netcracker/entity/CarRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netcracker/entity/PersonRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/netcracker/entity/Car.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestsCarsRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestsPersonRepository.java" />
       </list>
     </option>
   </component>
@@ -258,32 +223,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="netcracker" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractclass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="netcracker" type="462c0819:PsiDirectoryNode" />
               <item name="comparator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="netcracker" type="462c0819:PsiDirectoryNode" />
-              <item name="PersonChecks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Myproject" type="b2602c69:ProjectViewProjectNode" />
@@ -330,11 +270,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.TestsCarsRepository.testSort">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="netcracker.interfaces.*" />
+          <option name="PATTERN" value="netcracker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -350,13 +290,13 @@
       <module name="Myproject" />
       <envs />
     </configuration>
-    <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestsCarsRepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Myproject" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="TestsCarsRepository" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -370,33 +310,13 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="Tests.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestsCarsRepository.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Myproject" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="Tests.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Myproject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="TestsCarsRepository" />
       <option name="METHOD_NAME" value="testAdd" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -410,14 +330,34 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="Tests.testSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestsCarsRepository.testSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Myproject" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="TestsCarsRepository" />
       <option name="METHOD_NAME" value="testSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestsPersonRepository.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Myproject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestsPersonRepository" />
+      <option name="METHOD_NAME" value="testAdd" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -512,19 +452,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Tests" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Tests.test1" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Tests.testAdd" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Tests.testSort" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestsPersonRepository.testAdd" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestsCarsRepository.testAdd" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestsCarsRepository" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestsCarsRepository.testSort" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Tests.testSort" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Tests" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Tests.testAdd" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.Tests.test1" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestsCarsRepository.testSort" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestsCarsRepository" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestsCarsRepository.testAdd" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestsPersonRepository.testAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -543,7 +483,7 @@
       <workItem from="1511877665517" duration="24808000" />
       <workItem from="1512074215987" duration="491000" />
       <workItem from="1512075389660" duration="240000" />
-      <workItem from="1512482547547" duration="9636000" />
+      <workItem from="1512482547547" duration="18958000" />
     </task>
     <task id="LOCAL-00001" summary="enum and comparator в отдельные классы">
       <created>1511866550227</created>
@@ -580,61 +520,78 @@
       <option name="project" value="LOCAL" />
       <updated>1511994921487</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="через общий интерфейс, абстрактный класс, сортировки не работают">
+      <created>1512492594840</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1512492594840</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests - 2017.12.05 at 17h 26m 15s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="TestsCarsRepository - 2017.12.06 at 03h 03m 44s.xml">
+      <configuration name="TestsCarsRepository" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2017.12.05 at 17h 26m 29s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="TestsCarsRepository - 2017.12.06 at 03h 17m 11s.xml">
+      <configuration name="TestsCarsRepository" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2017.12.05 at 17h 26m 53s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="TestsCarsRepository_testAdd - 2017.12.06 at 02h 53m 28s.xml">
+      <configuration name="TestsCarsRepository.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2017.12.05 at 17h 27m 04s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="TestsCarsRepository_testAdd - 2017.12.06 at 02h 53m 54s.xml">
+      <configuration name="TestsCarsRepository.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests_testSort - 2017.12.05 at 17h 07m 48s.xml">
-      <configuration name="Tests.testSort" configurationId="JUnit" />
+    <history-entry file="TestsCarsRepository_testAdd - 2017.12.06 at 02h 54m 06s.xml">
+      <configuration name="TestsCarsRepository.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests_testSort - 2017.12.05 at 17h 13m 35s.xml">
-      <configuration name="Tests.testSort" configurationId="JUnit" />
+    <history-entry file="TestsCarsRepository_testAdd - 2017.12.06 at 03h 03m 40s.xml">
+      <configuration name="TestsCarsRepository.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests_testSort - 2017.12.05 at 17h 23m 22s.xml">
-      <configuration name="Tests.testSort" configurationId="JUnit" />
+    <history-entry file="TestsCarsRepository_testSort - 2017.12.06 at 03h 16m 46s.xml">
+      <configuration name="TestsCarsRepository.testSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests_testSort - 2017.12.05 at 17h 28m 30s.xml">
-      <configuration name="Tests.testSort" configurationId="JUnit" />
+    <history-entry file="TestsCarsRepository_testSort - 2017.12.06 at 03h 26m 54s.xml">
+      <configuration name="TestsCarsRepository.testSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests_testSort - 2017.12.05 at 17h 28m 54s.xml">
-      <configuration name="Tests.testSort" configurationId="JUnit" />
+    <history-entry file="TestsPersonRepository_testAdd - 2017.12.06 at 02h 53m 01s.xml">
+      <configuration name="TestsPersonRepository.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests_testSort - 2017.12.05 at 17h 30m 45s.xml">
-      <configuration name="Tests.testSort" configurationId="JUnit" />
+    <history-entry file="TestsPersonRepository_testAdd - 2017.12.06 at 02h 53m 11s.xml">
+      <configuration name="TestsPersonRepository.testAdd" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40217000" />
+    <option name="totallyTimeSpent" value="49539000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2880259" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32200646" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32200646" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28139183" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28214827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -682,6 +639,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -715,19 +682,13 @@
     <MESSAGE value="enum and comparator в отдельные классы" />
     <MESSAGE value="нормально выбрирается сортировка" />
     <MESSAGE value="написан свои компаратор, добавлены интерфейсы, чекеры, сортировки, настроен config" />
-    <option name="LAST_COMMIT_MESSAGE" value="написан свои компаратор, добавлены интерфейсы, чекеры, сортировки, настроен config" />
+    <MESSAGE value="через общий интерфейс, абстрактный класс, сортировки не работают" />
+    <MESSAGE value="добавлена сущность car и carrepository. При запуске всех тестов ошибки, но по 1 все норм." />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлена сущность car и carrepository. При запуске всех тестов ошибки, но по 1 все норм." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Tests.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="48" />
+      <option name="time" value="58" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -736,55 +697,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/menu/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#ShowMenu#0;class#Menu#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/entity/PersonRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/comparator/Mycomparator.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/enums/Enums.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/enums/Sorttype" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2.jar!/org/junit/runner/JUnitCore.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/interfaces/BubbleSorter.java" />
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_151/src.zip!/java/lang/Override.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -831,13 +743,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/MySettings.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -849,34 +754,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_151/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="149" column="8" lean-forward="false" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="223" column="0" lean-forward="false" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/exceptions/MyException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/interfaces/IdRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -897,47 +778,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/entity/CarRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/entity/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/comparator/PersonComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="54" />
-          <folding>
-            <marker date="1512491634730" expanded="false" signature="208:223" ph=" { " />
-            <marker date="1512491634730" expanded="false" signature="265:275" ph=" }" />
-            <marker date="1512491634730" expanded="false" signature="642:657" ph=" { " />
-            <marker date="1512491634730" expanded="false" signature="692:702" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/interfaces/IdEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/interfaces/IPerson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -950,16 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/PersonChecks/FioPersonChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/abstractclass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -968,22 +802,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/comparator/Compare_by_age.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/comparator/Compare_by_fio.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -993,50 +817,121 @@
         <state relative-caret-position="102">
           <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/PersonChecks/IdPersonChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/sorts/BubbleSorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/abstractclass/Repository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/PersonChecks/AgePersonChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="68">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/PersonChecks/FioPersonChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/PersonChecks/IdPersonChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/sorts/BubbleSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2.jar!/org/junit/internal/runners/model/EachTestNotifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1756#1757#0" expanded="true" />
+            <element signature="e#1802#1803#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/interfaces/Sorter.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#697#891#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+          <folding>
+            <element signature="e#1707#1708#0" expanded="true" />
+            <element signature="e#1759#1760#0" expanded="true" />
+            <element signature="e#3673#3808#0" expanded="true" />
+            <element signature="e#3807#3808#0" expanded="true" />
+            <element signature="e#4043#4191#0" expanded="true" />
+            <element signature="e#4190#4191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/interfaces/IPerson.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
@@ -1044,103 +939,208 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/interfaces/Repository.java">
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_151/src.zip!/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        <state relative-caret-position="197">
+          <caret line="149" column="8" lean-forward="false" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/config/Configurator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/interfaces/IRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/sorts/BubbleSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/sorts/ShellSorter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/entity/PersonRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="96" column="8" lean-forward="false" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#setSorter#0;class#PersonRepository#0" expanded="false" />
-            <element signature="docComment;method#printer#0;class#PersonRepository#0" expanded="false" />
-            <element signature="method#printer#0;class#PersonRepository#0" expanded="false" />
-            <element signature="method#search#0;class#PersonRepository#0" expanded="false" />
-            <element signature="method#searchbyAge#0;class#PersonRepository#0" expanded="false" />
-            <element signature="method#searchbyFIO#0;class#PersonRepository#0" expanded="false" />
-            <element signature="method#searchbyID#0;class#PersonRepository#0" expanded="false" />
-            <element signature="e#2664#2665#0" expanded="true" />
-            <element signature="e#2692#2693#0" expanded="true" />
-            <element signature="e#2734#2735#0" expanded="true" />
-            <element signature="e#2761#2762#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/entity/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="19" column="60" lean-forward="false" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#getAge#0;class#Person#0" expanded="false" />
-            <element signature="method#getAge#0;class#Person#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/menu/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="157" column="21" lean-forward="true" selection-start-line="157" selection-start-column="21" selection-end-line="157" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#ShowMenu#0;class#Menu#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/sorts/QuickSorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/comparator/PersonComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="54" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="54" />
+          <folding>
+            <marker date="1512491634730" expanded="false" signature="208:223" ph=" { " />
+            <marker date="1512491634730" expanded="false" signature="265:275" ph=" }" />
+            <marker date="1512491634730" expanded="false" signature="642:657" ph=" { " />
+            <marker date="1512491634730" expanded="false" signature="692:702" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/interfaces/IdRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/config/Configurator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/sorts/QuickSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/interfaces/Sorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/abstractclass/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="44" column="12" lean-forward="false" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#add#0;class#Repository#0" expanded="false" />
+            <element signature="docComment;method#resize#0;class#Repository#0" expanded="false" />
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/entity/CarRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#CarRepository#0;class#CarRepository#0" expanded="false" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="method#get#0;class#CarRepository#0" expanded="false" />
+            <element signature="method#delete#0;class#CarRepository#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/entity/PersonRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="75" column="33" lean-forward="true" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+          <folding>
+            <element signature="method#PersonRepository#0;class#PersonRepository#0" expanded="false" />
+            <element signature="method#setSorter#0;class#PersonRepository#0" expanded="false" />
+            <element signature="docComment;method#printer#0;class#PersonRepository#0" expanded="false" />
+            <element signature="method#printer#0;class#PersonRepository#0" expanded="false" />
+            <element signature="method#searchbyAge#0;class#PersonRepository#0" expanded="false" />
+            <element signature="method#searchbyFIO#0;class#PersonRepository#0" expanded="false" />
+            <element signature="method#searchbyID#0;class#PersonRepository#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/menu/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/entity/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Car#0;class#Car#0" expanded="false" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/comparator/Compare_by_age.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestsCarsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="38" column="58" lean-forward="true" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestsPersonRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/netcracker/entity/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Person#0;class#Person#0" expanded="false" />
+            <element signature="method#Person#1;class#Person#0" expanded="false" />
+            <element signature="docComment;method#getAge#0;class#Person#0" expanded="false" />
+            <element signature="method#getAge#0;class#Person#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

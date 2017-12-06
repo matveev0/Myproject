@@ -1,20 +1,17 @@
 package netcracker.abstractclass;
 
-import netcracker.config.Configurator;
-import netcracker.interfaces.Sorter;
-
-import java.io.IOException;
+import netcracker.interfaces.IRepository;
 import java.util.Arrays;
+import java.util.Iterator;
+import java.util.NoSuchElementException;
 
-public abstract class Repository<T> implements netcracker.interfaces.Repository<T> {
+public abstract class Repository<T> implements IRepository<T>, Iterable<T> {
     protected static int id = -1;
-    protected Object[] repository;
+    protected T[] repository;
     protected int lengthNotNull;
-    protected Sorter sorter = Configurator.getInstance().getSorter();
 
-    public Repository(int capacity) throws IOException {
-        repository = new Object[capacity];
-        lengthNotNull = 0;
+    public Repository(int capacity) {
+        lengthNotNull  =0;
     }
 
     @Override
@@ -39,5 +36,24 @@ public abstract class Repository<T> implements netcracker.interfaces.Repository<
     @Override
     public int getLength() {
         return lengthNotNull;
+    }
+
+    class ArrayIterator implements Iterator<T> {
+        int current = 0;
+
+        public boolean hasNext() {
+            return current < Repository.this.lengthNotNull;
+        }
+
+        public T next() {
+            if (!hasNext()) {
+                throw new NoSuchElementException();
+            }
+            return repository[current++];
+        }
+    }
+
+    public Iterator<T> iterator() {
+        return new ArrayIterator();
     }
 }
